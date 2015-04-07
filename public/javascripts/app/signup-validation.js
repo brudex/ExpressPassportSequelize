@@ -9,7 +9,7 @@ $().ready(function() {
                 .append( error );
         },
         errorElement: "small",
-        errorClass: "invalid",
+        errorClass: "error",
         rules: {
             confirm: {
                 equalTo: "#password"
